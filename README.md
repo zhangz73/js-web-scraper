@@ -13,6 +13,7 @@ While the exact procedures can be found in the pipeline diagram below, we highli
 * Multiple pages are opened in order to fire up the web-scraper using more than one threads.
 * It is better to collect the corresponding downloading URLs for each user in the first pass, using multiple threads, while downloading those files in the second pass, using a single thread. Web traffic can easily get jammed if you download files with more than one threads.
 ![Web-scraper Pipeline](Images/Workflow.png)
+
 Web-scraping is a highly customized job, as different websites have completely different layouts. <strong>Therefore, the code `js_scraper_demo.js` can only be used as a reference, while you should build your own web-craper tailoring to your specific use case.</strong>
 
 ## Cautious
