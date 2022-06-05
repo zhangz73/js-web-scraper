@@ -1,4 +1,4 @@
-# js-web-scraper
+# JavaScript Web Scraper
 
 ## Background
 Web-scraping is widely used in a variety of fields. Web-crawlers are mostly implemented using `BeautifulSoup` and `Selenium` in Python. When it comes to the tasks at your company, web-scraping becomes much trickier. <strong>Most companies that have a well-established development environment tend to block all HTTP/HTTPS requests sent to external websites, so web-crawlers built in Python are no longer available. </strong> However, it doesn't mean that employees in those companies should ever do the dull and repetitive web-scraping tasks by hand. In this repo, we provided a demo script that does the massive amount of web-scraping and file downloads using JavaScript, with error resilience.
