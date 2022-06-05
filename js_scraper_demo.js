@@ -1,5 +1,5 @@
 /*
-  This script serves as a demo for automatic downloading of sales call recordings from a given vendor's website.
+  This script serves as a demo for automatic downloading of audio files from a given website.
   It mimics users typing and clicking events in the browser and behaves exactly in the same way as if a human-being
   is controlling the browser.
 
